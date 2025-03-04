@@ -1,1 +1,1 @@
-select Category,sum(Amount) as total_sum,sum(qty) as total_qty from amazon_sales group by Category 
+select count(*) from amazon_sales
